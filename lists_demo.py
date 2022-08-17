@@ -28,3 +28,8 @@ numbers.sort()
 print("Sort the list: "+ str(numbers))
 
 print("using 4 in numbers: " + str(4 in numbers))
+
+print("len of numbers list: " + str(len(numbers)))
+
+for number in numbers:
+    print(number)
