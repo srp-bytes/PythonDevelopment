@@ -8,6 +8,10 @@ print("course.removesuffix(""python"")" + course.removesuffix("PYTHON"))
 print("course.removeprefix(""learning"")" + course.removeprefix("learning"))
 print("PYTHON" in course)
 
+temp = " string starts and ends with spaces"
+print(temp)
+print("Now trimming the spaces from the string using strip()" + temp.strip())
+
 print()
 print("Indexed access of a string using range(start, end): ")
 print()
@@ -30,3 +34,5 @@ last = "Harry"
 
 full = f"{first} {last}"
 print(full)
+
+
