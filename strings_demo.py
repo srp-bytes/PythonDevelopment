@@ -21,3 +21,12 @@ print()
 
 for char in course:
     print(char)
+
+
+print()
+
+first = "Tom"
+last = "Harry"
+
+full = f"{first} {last}"
+print(full)
