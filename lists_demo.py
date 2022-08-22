@@ -33,3 +33,11 @@ print("len of numbers list: " + str(len(numbers)))
 
 for number in numbers:
     print(number)
+
+
+double_dim_list = [[1,2,3], [4,5,6], [7,8,9]]
+print("printing double dimensional list")
+for r in range(0, len(double_dim_list)):
+    print("Row: " + str(r))
+    for c in range(0, len(double_dim_list[r])):
+        print(double_dim_list[r][c])
