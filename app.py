@@ -1,12 +1,20 @@
-print("SRP's first python code")
+from Chef import Chef
+from Student import Student
+from ChineseChef import  ChineseChef
 
-first_name = "John"
-last_name = "Smith"
-age = 20
-is_new_patient = True
-years_of_experience = 9.5
+student = Student("john", 21, "CS", 3.1)
+print(student)
+student.print_student_details()
 
-birth_year = int(input("What is your birth year: "))
-age = 2022 - birth_year
-print("Your age is :" + str(age))
+myChef = Chef()
 
+myChef.make_salad()
+myChef.make_chicken()
+myChef.make_special_dish()
+
+myChineseChef = ChineseChef()
+
+myChineseChef.make_salad()
+myChineseChef.make_chicken()
+myChineseChef.make_fried_rice()
+myChineseChef.make_special_dish()
